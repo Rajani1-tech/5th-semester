@@ -1,0 +1,20 @@
+/* External CSS */
+
+/* Additional styles for the body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Additional styles for h2 */
+h3 {
+    color: #795548;
+}
+
+/* Additional styles for p */
+p {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

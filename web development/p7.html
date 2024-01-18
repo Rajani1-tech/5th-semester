@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three-Frames Layout</title>
+</head>
+<frameset cols="20%, 60%, *">
+    <!-- Left Frame -->
+    <frame src="connect.html" name="leftFrame">
+
+    <!-- Center Frame -->
+    <frame src="main.html" name="mainFrame">
+
+    <!-- Right Frame -->
+    <frame src="list.html" name="rightFrame">
+
+    <!-- Provide a fallback content for browsers that do not support frames -->
+    <noframes>
+        <body>
+            <p>This page uses frames. Your browser does not support frames.</p>
+        </body>
+    </noframes>
+</frameset>
+</html>

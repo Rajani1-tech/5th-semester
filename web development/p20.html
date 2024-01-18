@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arithmetic Exception Handling</title>
+</head>
+
+<body>
+
+   <?php
+    function divideNumbers($numerator, $denominator) {
+        try {
+            // Attempt to perform the division
+            $result = $numerator / $denominator;
+
+            // Display the result if successful
+            echo "Result: $result";
+        } catch (Exception $e) {
+            // Handle the exception if division by zero occurs
+            echo "Error: " . $e->getMessage();
+        }
+    }
+
+    // Example usage
+    $numerator = 10;
+    $denominator = 0;
+
+    // Call the function with potential division by zero
+    divideNumbers($numerator, $denominator);
+   ?>
+
+</body>
+
+</html>
